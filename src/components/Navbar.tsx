@@ -3,9 +3,9 @@ import { ArrowLeftCircle, ArrowLeftSquare, ArrowRightCircle, ArrowRightIcon, Arr
 import Link from "next/link";
 import React from "react";
 import Sidebar from "../components/Sidebar";
+import Sidebar2 from "./Sidebar2";
 
 function Navbar() {
-  const [isOpen, setIsOpen] = React.useState(true);
   
   return (
     <div>
@@ -57,6 +57,7 @@ function Navbar() {
 
         
       </div> */}
+
     </div>
   );
 }

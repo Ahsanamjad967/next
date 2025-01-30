@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { HomeIcon, Menu, Settings, User } from "lucide-react";
@@ -14,11 +16,11 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="inline-flex absolute right-0">
+    <div className="inline-flex ">
       <motion.div
         animate={{ width: isOpen ? "16rem" : "5rem" }} 
-        transition={{ duration: 0.3, ease: "easeInOut" }} 
-        className="h-screen bg-gray-900 text-white p-5 pt-8 flex flex-col shadow-lg"
+        transition={{ duration: 0.5, ease: "easeInOut" }} 
+        className=" text-white p-5 pt-8 flex flex-col shadow-lg"
       >
 
         <button

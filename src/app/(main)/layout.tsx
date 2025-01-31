@@ -11,16 +11,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <Sidebar2 className="" >
           <div></div>
         </Sidebar2>
-        {/* <Sidebar /> */}
+        
       </aside>
 
   
       <div className="flex flex-col flex-1">
         <header className="h-16 bg-gray-800 text-white flex items-center px-4">
-          {/* <Navbar /> */}
         </header>
-
-        {/* Page Content */}
         <main className="flex-1 overflow-y-auto p-4">{children}</main>
       </div>
     </div>
